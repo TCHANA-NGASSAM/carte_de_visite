@@ -5,12 +5,17 @@
   label {
     display: block;
     margin-bottom: 5px;
+    margin-left: 30%;
+  }
+  h1{
+    margin-left: 30%;
   }
   
   input {
     margin-bottom: 10px;
     padding: 5px;
     width: 300px;
+    margin-left: 30%;
   }
   
   button {
