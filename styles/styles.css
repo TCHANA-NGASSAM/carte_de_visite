@@ -1,39 +1,55 @@
-.form {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    margin-left: 30%;
-  }
-  h1{
-    margin-left: 30%;
-  }
-  
-  input {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 30%;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #b71c1c;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #card {
-    display: none;
-    margin-top: 20px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 300px;
-  }
-  
-  #card h2 {
-    margin-top: 0;
-  }
+#formulaire,#carteVisite {
+  background-color: rgb(237, 237, 216);
+  width: 25%;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 40%;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+h1,h2{
+    text-align: center;
+}
+/* .hidden {
+  display: none;
+} */
+
+label , p{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+span{
+    font-weight: 300;
+}
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #b71c1c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+#card {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+#card h2 {
+  margin-top: 0;
+}
