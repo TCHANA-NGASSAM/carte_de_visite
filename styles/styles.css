@@ -11,9 +11,9 @@
 h1,h2{
     text-align: center;
 }
-/* .hidden {
+ .hidden {
   display: none;
-} */
+} 
 
 label , p{
   display: block;
